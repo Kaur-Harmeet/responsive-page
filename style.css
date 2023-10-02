@@ -1,0 +1,28 @@
+h1{
+    color: red;
+}
+h3{
+    color: orangered ;
+}
+.card img{
+    height: 370px;
+    width: 370px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-size: cover;
+    box-shadow: 0 0 4px black;
+}
+
+#pets{
+    display: flex;
+    
+    justify-content:space-evenly;
+}
+@media (max-width: 500px){
+    #pets{
+        flex-wrap: wrap;
+
+    }
+   
+}
+
